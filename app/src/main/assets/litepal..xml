@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litepal>
+    <dbname value="fweather"/>
+    <version value="1"/>
+    <list>
+        <mapping>com.tigergoo.fweather.model.Province</mapping>
+        <mapping>com.tigergoo.fweather.model.City</mapping>
+        <mapping>com.tigergoo.fweather.model.County</mapping>
+    </list>
+</litepal>

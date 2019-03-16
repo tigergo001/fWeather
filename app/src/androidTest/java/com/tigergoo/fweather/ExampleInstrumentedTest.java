@@ -1,4 +1,4 @@
-package com.example.fweather;
+package com.tigergoo.fweather;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

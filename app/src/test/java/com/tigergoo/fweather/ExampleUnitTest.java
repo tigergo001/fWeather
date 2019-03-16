@@ -1,4 +1,4 @@
-package com.example.fweather;
+package com.tigergoo.fweather;
 
 import org.junit.Test;
 
