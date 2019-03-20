@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名字-->
+    <dbname value="fweather" />
+    <!--数据库版本-->
+    <version value="1" />
+    <list>
+        <!--根据model映射创建表-->
+        <mapping class="com.tigergoo.fweather.model.County" />
+        <mapping class="com.tigergoo.fweather.model.City" />
+        <mapping class="com.tigergoo.fweather.model.Province" />
+    </list>
+    <!--将数据库文件存放在sd卡（/sdcard/Android/data/<package name>/files/databases），调试时使用（internal，external）-->
+    <!--<storage value="external" />-->
+</litepal>

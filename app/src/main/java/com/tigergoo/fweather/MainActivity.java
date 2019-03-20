@@ -1,7 +1,7 @@
 package com.tigergoo.fweather;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * @class :
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
      * @Version : 1.0
      */
     protected void onCreate(Bundle savedInstanceState) {
+        //SQLiteDatabase db = LitePal.getDatabase();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
